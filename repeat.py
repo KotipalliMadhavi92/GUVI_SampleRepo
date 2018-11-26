@@ -4,5 +4,9 @@ ans=list()
 for i in range(0,a):
 	if l[i] in l[i+1:]:
 		ans.append(l[i])
-for i in ans:
-	print(i,end=" ")
+if(len(ans)==0):
+	print("unique")
+else:
+	for i in ans:
+		print(i,end=" ")
+	
