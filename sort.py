@@ -1,4 +1,4 @@
 n=input()
 l=list(input().split())
-l.sort()
+l.sort(reverse=True)
 print(int("".join(l)))
